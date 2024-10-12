@@ -105,7 +105,7 @@ services:
 ### 2. Configure V2rayA
 
 1. Go to `<Your VM IP address>:2017`.
-2. Import the configuration from 3X-UI and start the proxy.
+2. Import the configuration from 3X-UI (copy link from client QR-code in 3X-UI control panel) and start the proxy.
 3. In the settings, configure the following options:
     - `Transparent Proxy/System Proxy`: On, do not split traffic.
     - `IP Forward`: Active.
