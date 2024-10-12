@@ -168,7 +168,8 @@ services:
         /ip firewall mangle add action=mark-routing chain=prerouting disabled=no dst-address-list=vpn-domains new-routing-mark=to-proxy passthrough=yes
         ```
 
-    4. Add necessary domains to the DNS static list for forwarding through the proxy:
+    4. Теперь добавляем адреса в список `vpn-domains`. Сами адреса берем [тут](https://rockblack.su/vpn/dopolnitelno/diapazon-ip-adresov), либо грузим автоматически (полно инструкций в сети).
+    5. Либо можно еще так (способ не проверял): Add necessary domains to the DNS static list for forwarding through the proxy:
         - One by one:
 
             ```bash
