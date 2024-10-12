@@ -115,6 +115,7 @@ services:
         - Click `Configure` and keep only one rule: `default: proxy`.
     - Leave everything else as default.
 4. Click `Save and Apply`.
+5. Проверить соединение можно выбрав его через checkbox и затем нажать кнопки `Ping`/`HTTP`. При этом в панели 3X-UI мы увидим что клиент подключился.
 
 ### 3. Configure WireGuard
 
