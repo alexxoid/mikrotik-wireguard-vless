@@ -105,8 +105,9 @@ services:
 ### 2. Configure V2rayA
 
 1. Go to `<Your VM IP address>:2017`.
-2. Import the configuration from 3X-UI (copy link from client QR-code in 3X-UI control panel) and start the proxy.
-3. In the settings, configure the following options:
+2. Import the configuration from 3X-UI (copy link from client QR-code in 3X-UI control panel).
+3. Запускаем V2rayA нажав кнопку `Ready/Start` в верхнем левом углу.
+4. In the settings, configure the following options:
     - `Transparent Proxy/System Proxy`: On, do not split traffic.
     - `IP Forward`: Active.
     - `Port Sharing`: Active.
@@ -114,8 +115,8 @@ services:
     - `Traffic Splitting Mode of Rule Port`: RoutingA.
         - Click `Configure` and keep only one rule: `default: proxy`.
     - Leave everything else as default.
-4. Click `Save and Apply`.
-5. Проверить соединение можно выбрав его через checkbox и затем нажать кнопки `Ping`/`HTTP`. При этом в панели 3X-UI мы увидим что клиент подключился.
+5. Click `Save and Apply`.
+6. Проверить соединение можно выбрав его через checkbox и затем нажать кнопки `Ping`/`HTTP`. При этом в панели 3X-UI мы увидим что клиент подключился.
 
 ### 3. Configure WireGuard
 
